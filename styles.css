@@ -1,0 +1,53 @@
+.section1 {
+    background-color:green;
+    padding:-50px;
+    margin:-30px;
+    height: 100px;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: right;
+    
+}
+.right-side {
+    list-style-type:none;
+    text-align: center;
+    width:50%;
+    
+
+ }
+
+.right-side li {
+    display:inline-block;
+
+ }
+
+ .left-side {
+    text-align:left;
+    width:30%;
+    font-size: 250%;
+    color: #fff;
+ }
+
+ .right-side li a {
+    text-decoration: none;
+    display:block;
+    width:70%;
+    height:70%;
+    font-size:15px;
+    color:#fff;
+    padding: 14px;
+    margin:16px;
+
+    /*border-radius to make the box corners round */
+    border-radius: 10px;
+    
+}
+
+
+
+.right-side li a:hover{
+    background-color:rgb(122, 54, 54);
+}
+
